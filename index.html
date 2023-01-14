@@ -7,32 +7,40 @@
       content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
     />
     <title>Resume | Yonis Kurniawan</title>
+    <meta property="og:type" content="website" />
+    <meta name="twitter:image" content="assets/img/YK.webp" />
     <meta property="og:description" content="Interested in future technology" />
     <meta property="og:title" content="Resume | Yonis Kurniawan" />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="assets/img/YK.webp" />
     <meta name="description" content="Interested in future technology" />
+    <meta property="og:image" content="assets/img/YK.webp" />
+    <meta name="twitter:card" content="summary" />
     <link
       rel="icon"
-      type="image/png"
+      type="image/webp"
       sizes="858x858"
       href="assets/img/YK.webp"
     />
     <link
       rel="icon"
-      type="image/png"
+      type="image/webp"
       sizes="858x858"
       href="assets/img/YK.webp"
     />
     <link
       rel="icon"
-      type="image/png"
+      type="image/webp"
       sizes="858x858"
       href="assets/img/YK.webp"
     />
     <link
       rel="icon"
-      type="image/png"
+      type="image/webp"
+      sizes="858x858"
+      href="assets/img/YK.webp"
+    />
+    <link
+      rel="icon"
+      type="image/webp"
       sizes="858x858"
       href="assets/img/YK.webp"
     />
@@ -90,7 +98,7 @@
               >
                 <ul class="navbar-nav me-auto">
                   <li class="nav-item">
-                    <a class="nav-link active" href="/">About Me</a>
+                    <a class="nav-link active" href="index">About Me</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="portfolios">Portfolios</a>
@@ -175,6 +183,7 @@
                   data-bss-hover-animate="rubberBand"
                   href="https://www.linkedin.com/in/yonis-kurniawan/"
                   target="_blank"
+                  title="Yonis Linkedin"
                   ><i
                     class="fab fa-linkedin-in fs-2 text-dark"
                     style="margin-right: 30px; font-size: 25px"
@@ -183,11 +192,12 @@
                   data-bss-hover-animate="rubberBand"
                   href="https://www.instagram.com/k_yonis/"
                   target="_blank"
+                  title="Yonis Instagram"
                   ><i
                     class="fab fa-instagram fs-2 text-dark"
                     style="margin-right: 30px; font-size: 25px"
                   ></i></a
-                ><a data-bss-hover-animate="rubberBand"
+                ><a data-bss-hover-animate="rubberBand" title="Yonis Github"
                   ><i
                     class="fab fa-github fs-2 text-dark"
                     style="font-size: 25px"
@@ -206,29 +216,33 @@
               </h1>
               <hr />
               <p style="margin: 0px">Web Design &amp; Development</p>
+              <!-- Start: progress bar -->
               <div class="progress">
                 <div
                   class="progress-bar progress-bar-animated"
-                  aria-valuenow="90"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
+                  [attr.aria-valuenow]="90"
+                  [attr.aria-valuemin]="0"
+                  [attr.aria-valuemax]="100"
                   style="width: 90%"
                 >
                   90%
                 </div>
               </div>
+              <!-- End: progress bar -->
               <p style="margin: 0px">Data Analytics</p>
+              <!-- Start: progress bar -->
               <div class="progress">
                 <div
                   class="progress-bar progress-bar-animated"
-                  aria-valuenow="80"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
+                  [attr.aria-valuenow]="80"
+                  [attr.aria-valuemin]="0"
+                  [attr.aria-valuemax]="100"
                   style="width: 80%"
                 >
                   80%
                 </div>
               </div>
+              <!-- End: progress bar -->
               <h1
                 style="
                   font-size: 18px;
@@ -256,6 +270,7 @@
                       margin-bottom: 12px;
                       filter: grayscale(100%);
                     "
+                    alt="Laravel"
                   /><img
                     class="img-fluid"
                     data-bss-hover-animate="pulse"
@@ -267,6 +282,7 @@
                       filter: grayscale(100%);
                       margin-bottom: 12px;
                     "
+                    alt="PHP"
                   /><img
                     class="img-fluid"
                     data-bss-hover-animate="pulse"
@@ -278,6 +294,7 @@
                       filter: grayscale(100%);
                       margin-bottom: 12px;
                     "
+                    alt="Python"
                   /><img
                     class="img-fluid"
                     data-bss-hover-animate="pulse"
@@ -289,6 +306,7 @@
                       filter: grayscale(100%);
                       margin-bottom: 12px;
                     "
+                    alt="MySQL"
                   /><img
                     class="img-fluid"
                     data-bss-hover-animate="pulse"
@@ -300,6 +318,7 @@
                       filter: grayscale(100%);
                       margin-bottom: 12px;
                     "
+                    alt="Javascript"
                   /><img
                     class="img-fluid"
                     data-bss-hover-animate="pulse"
@@ -311,6 +330,7 @@
                       margin-bottom: 12px;
                       margin-right: 9px;
                     "
+                    alt="JQuery"
                   /><img
                     class="img-fluid"
                     data-bss-hover-animate="pulse"
@@ -322,6 +342,7 @@
                       filter: grayscale(100%);
                       margin-bottom: 12px;
                     "
+                    alt="HTML5"
                   /><img
                     class="img-fluid"
                     data-bss-hover-animate="pulse"
@@ -329,6 +350,7 @@
                     loading="lazy"
                     width="40"
                     style="filter: grayscale(100%); margin-bottom: 12px"
+                    alt="CSS3"
                   />
                 </div>
               </div>
@@ -705,6 +727,7 @@
                     data-aos-duration="1000"
                     src="assets/img/illustrations/startup.svg"
                     loading="lazy"
+                    alt="Business Booster"
                   />
                 </div>
               </div>
@@ -808,6 +831,7 @@
                         src="assets/img/international-conference.webp"
                         style="margin-bottom: 8px"
                         loading="lazy"
+                        alt="International Conference IEEE"
                       />
                       <div
                         class="row d-lg-flex d-xl-flex d-xxl-flex justify-content-lg-end justify-content-xl-end justify-content-xxl-end"
@@ -881,6 +905,7 @@
                     data-aos-duration="1000"
                     src="assets/img/illustrations/report.svg"
                     loading="lazy"
+                    alt="Capability"
                   />
                 </div>
               </div>
@@ -936,6 +961,7 @@
                             data-bss-disabled-mobile="true"
                             data-bss-hover-animate="pulse"
                             src="assets/img/certificates/DS.webp"
+                            alt="Data Scientist"
                           />
                           <div class="portfolio-info rounded-1">
                             <h4>
@@ -962,6 +988,7 @@
                             data-bss-disabled-mobile="true"
                             data-bss-hover-animate="pulse"
                             src="assets/img/certificates/DA.webp"
+                            alt="Data Analyst"
                           />
                           <div class="portfolio-info rounded-1">
                             <h4>
@@ -988,6 +1015,7 @@
                             data-bss-disabled-mobile="true"
                             data-bss-hover-animate="pulse"
                             src="assets/img/certificates/Assessment.webp"
+                            alt="Assessment of Digital Talent Indonesia"
                           />
                           <div class="portfolio-info rounded-1">
                             <h4>
@@ -1010,6 +1038,7 @@
                             data-bss-disabled-mobile="true"
                             data-bss-hover-animate="pulse"
                             src="assets/img/certificates/Linkedin%20-%20Python%20Data%20Analysis.webp"
+                            alt="Python Data Analysis"
                           />
                           <div class="portfolio-info rounded-1">
                             <h4>
@@ -1032,6 +1061,7 @@
                             data-bss-disabled-mobile="true"
                             data-bss-hover-animate="pulse"
                             src="assets/img/certificates/Linkedin%20-%20Python%20for%20Data%20Visualization.webp"
+                            alt="Python for Data Visualization"
                           />
                           <div class="portfolio-info rounded-1">
                             <h4>
@@ -1054,6 +1084,7 @@
                             data-bss-disabled-mobile="true"
                             data-bss-hover-animate="pulse"
                             src="assets/img/certificates/Linkedin%20-%20SQL%20Data%20Reporting%20and%20Analysis.webp"
+                            alt="SQL Data Reporting and Analysis"
                           />
                           <div class="portfolio-info rounded-1">
                             <h4>
@@ -1076,6 +1107,7 @@
                             data-bss-disabled-mobile="true"
                             data-bss-hover-animate="pulse"
                             src="assets/img/certificates/Webinar%2026%20April%202022%20-%20Customer%20Churn%20Prediction%20Using%20ML.webp"
+                            alt="Customer Churn Prediction Using Machine Learning"
                           />
                           <div class="portfolio-info rounded-1">
                             <h4>
@@ -1098,6 +1130,7 @@
                             data-bss-disabled-mobile="true"
                             data-bss-hover-animate="pulse"
                             src="assets/img/certificates/Webinar%2012%20April%202022%20-%20Build%20your%20ability%20to%20compete%20in%20Industry%204.0.webp"
+                            alt="Compete in Industry 4.0"
                           />
                           <div class="portfolio-info rounded-1">
                             <h4>
@@ -1120,6 +1153,7 @@
                             data-bss-disabled-mobile="true"
                             data-bss-hover-animate="pulse"
                             src="assets/img/certificates/Webinar%204%20April%20-%20National%20Strategy%20for%20Artificial%20Intelligence%20in%20Indonesia.webp"
+                            alt="Artificial Intelligence in Indonesia"
                           />
                           <div class="portfolio-info rounded-1">
                             <h4>
@@ -1163,11 +1197,17 @@
               © 2023 Made with&nbsp;<span
                 class="fw-bold text-center text-secondary"
                 style="font-size: 12px"
-                ><img width="16px" src="assets/img/heart.webp" /></span
+                ><img
+                  width="16px"
+                  src="assets/img/heart.webp"
+                  alt="Heart" /></span
               >&nbsp;by Yonis Kurniawan&nbsp;<span
                 class="fw-bold text-center text-secondary"
                 style="font-size: 12px"
-                ><img width="16px" src="assets/img/YK.webp"
+                ><img
+                  width="16px"
+                  src="assets/img/YK.webp"
+                  alt="Yonis Kurniawan"
               /></span>
             </p>
           </div>
@@ -1180,7 +1220,9 @@
                 title="My Github"
               >
                 <div class="bs-icon-sm bs-icon-circle bs-icon-primary bs-icon">
-                  <a class="link-light"><i class="fab fa-github"></i></a>
+                  <a class="link-light" title="Yonis Github"
+                    ><i class="fab fa-github"></i
+                  ></a>
                 </div>
               </li>
               <li
@@ -1194,6 +1236,7 @@
                     class="link-light"
                     href="https://www.linkedin.com/in/yonis-kurniawan/"
                     target="_blank"
+                    title="Yonis Linkedin"
                     ><i class="fab fa-linkedin-in"></i
                   ></a>
                 </div>
@@ -1205,7 +1248,9 @@
                 title="My Channel (coming soon)"
               >
                 <div class="bs-icon-sm bs-icon-circle bs-icon-primary bs-icon">
-                  <a class="link-light"><i class="fab fa-youtube"></i></a>
+                  <a class="link-light" title="Yonis Youtube"
+                    ><i class="fab fa-youtube"></i
+                  ></a>
                 </div>
               </li>
               <li
@@ -1219,6 +1264,7 @@
                     class="link-light"
                     href="https://www.instagram.com/k_yonis/"
                     target="_blank"
+                    title="Yonis Instagram"
                     ><i class="fab fa-instagram"></i
                   ></a>
                 </div>
@@ -1230,7 +1276,7 @@
                 title="Support"
               >
                 <div class="bs-icon-sm bs-icon-circle bs-icon-primary bs-icon">
-                  <a class="link-light" href="credits"
+                  <a class="link-light" href="credits" title="My Heart"
                     ><i class="fas fa-heart"></i
                   ></a>
                 </div>
@@ -1242,7 +1288,11 @@
                 title="Scroll Up"
               >
                 <div class="bs-icon-sm bs-icon-circle bs-icon-primary bs-icon">
-                  <a class="link-light" id="scroll" href="#"
+                  <a
+                    class="link-light"
+                    id="scroll"
+                    href="#"
+                    title="Scroll me up"
                     ><i class="fas fa-arrow-up"></i
                   ></a>
                 </div>
@@ -1257,5 +1307,6 @@
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="assets/js/script.min.js"></script>
+    <script src="assets/js/typing-text.min.js"></script>
   </body>
 </html>
